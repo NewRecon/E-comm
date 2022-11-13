@@ -1,0 +1,505 @@
+@import url("/fonts/icon-font/style.css");
+
+@font-face {
+    font-family: 'Proxima-Regular';
+    src: url("/fonts/proximanova_regular.ttf");
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url("/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url(/fonts/Raleway-Bold.ttf);
+}
+
+$myBlack: #262626;
+$myBlue: #40BFFF;
+$myRed: #FF4858;
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: inherit;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+html {
+    height: 100%
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+body {
+    color: $myBlack;
+    font-family: 'Proxima-regular', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 0px 105px;
+}
+
+.header {
+
+    &__bottom {
+        display: flex;
+        font-family: 'Poppins-Medium', sans-serif;
+        height: 44px;
+        padding: 26px 0px;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+
+    &__right {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+        height: 100%;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    &__top {
+        display: flex;
+        height: 66px;
+        align-items: center;
+        font-size: 20px;
+        border-bottom: #FAFAFB solid 2px;
+    }
+}
+
+.menu {
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+
+        .menu__link {
+            margin: 2px 0px 3px 100px;
+            font-size: 24px;
+            transition: .2s;
+
+            .active {
+                color: $myBlue;
+            }
+
+            &:hover {
+                color: $myRed;
+                transition: .2s;
+            }
+        }
+    }
+}
+
+.header-logo {
+    height: 100%;
+    font-size: 18px;
+
+    a {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    &__text {
+        font-family: 'Poppins-Bold', sans-serif;
+        font-size: 18px;
+    }
+
+    &__logo {
+        margin-right: 8px;
+        width: 44px;
+        height: 44px;
+        background-image: url(/icon-fonts/Icon.svg);
+        background-size: cover;
+    }
+}
+
+.icon-arrow-down {
+    font-size: 8px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.icon-cart_2 {
+    font-size: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.cart-counter {
+    position: absolute;
+    top: 8px;
+    right: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    border: solid 2px white;
+    background-color: #FB7181;
+    border-radius: 50%;
+    font-family: 'Poppins-Bold', sans-serif;
+}
+
+.icon-profile {
+    margin-right: 5px;
+}
+
+.icon-search-icon {
+    margin-left: 5px;
+}
+
+#items {
+    margin-right: 30px;
+}
+
+.banner {
+    width: 100%;
+    --width: 100vw;
+
+    &__top {
+        width: 100%;
+        height: 100%;
+        height: calc(var(--width)/2.3);
+        background-image: url("/img/Promotion\ Image.png");
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+
+        color: white;
+        font-size: calc(var(--width)*0.05);
+        font-family: 'Poppins-Bold', sans-serif;
+        line-height: 2.5ex;
+    }
+
+    &__bottom {
+        display: flex;
+        width: 100%;
+    }
+
+    &__recom {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: - 100px;
+        flex-wrap: wrap;
+        height: 358px;
+        overflow: hidden;
+    }
+}
+
+.recom {
+    width: 318px;
+    height: 258px;
+    background-image: url("/img/products/Product2.png");
+    background-size: cover;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.product {
+    &__title {
+        font-size: 20px;
+        font-family: 'Poppins-Bold', sans-serif;
+        color: $myBlack;
+        width: 202px;
+        height: 58px;
+    }
+
+    &__discount {
+        font-size: 18px;
+
+        #old-price {
+            font-family: 'Poppins-Regular';
+            color: #9098B1;
+        }
+
+        #discount {
+            color: $myRed;
+            font-family: 'Poppins-Bold';
+        }
+    }
+
+    &__price {
+        font-family: 'Raleway-Bold';
+        color: $myBlue;
+        font-size: 30px;
+    }
+}
+
+.best-seller {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+        color: #33A0FF;
+        font-family: 'Poppins-Medium';
+        font-size: 20px;
+        border-bottom: solid 3px #33A0FF;
+        padding: 3px;
+    }
+
+    &__header {
+        font-family: "Poppins-SemiBold";
+        font-size: 35px;
+    }
+
+    &__menu {
+        font-family: "Poppins-Regular";
+        font-size: 22px;
+        width: 40%;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 25px;
+        }
+
+        li {
+            margin: 5px;
+        }
+    }
+
+    &__products {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .product-box {
+            display: inline-block;
+            border: solid 3px #F6F7F8;
+            margin: 20px;
+
+            &__img {
+                background-image: url("/img/products/Product2.png");
+                width: 300px;
+                height: 273px;
+                background-size: cover;
+            }
+
+            &__stars {
+                display: flex;
+                justify-content: center;
+
+                .icon-star {
+                    margin: 0px 7px;
+                }
+            }
+
+            &__price {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 22px 0px;
+
+                .product__price {
+                    font-size: 18px;
+                }
+
+                .product__discount {
+                    font-size: 14px;
+
+                    #old-price {
+                        margin: 0px 7px;
+                    }
+                }
+            }
+
+            .product {
+                &__title {
+                    font-size: 18px;
+                    width: 100%;
+                    height: auto;
+                    text-align: center;
+                    margin: 22px 0px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:700px) {
+    .header__left {
+        display: none;
+    }
+
+    .container {
+        padding: 70px;
+    }
+
+    .cart-counter {
+        right: 245px;
+    }
+
+    .banner__recom {
+        height: 258px;
+    }
+
+    .recom {
+        width: 298px;
+        height: 238px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .header__right {
+        .menu {
+            display: none;
+        }
+    }
+}

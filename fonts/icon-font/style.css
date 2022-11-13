@@ -1,0 +1,261 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?6hb5va');
+  src: url('fonts/icomoon.eot?6hb5va#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6hb5va') format('truetype'),
+    url('fonts/icomoon.woff?6hb5va') format('woff'),
+    url('fonts/icomoon.svg?6hb5va#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+  content: "\e900";
+}
+
+.icon-arrow_left:before {
+  content: "\e901";
+  color: #40bfff;
+}
+
+.icon-arrow-_left_mobile:before {
+  content: "\e902";
+}
+
+.icon-bag:before {
+  content: "\e903";
+}
+
+.icon-Bank:before {
+  content: "\e904";
+}
+
+.icon-bell:before {
+  content: "\e905";
+  color: #9098b1;
+}
+
+.icon-bottom:before {
+  content: "\e906";
+}
+
+.icon-Card:before {
+  content: "\e907";
+}
+
+.icon-cart:before {
+  content: "\e908";
+}
+
+.icon-cart_2:before {
+  content: "\e909";
+  color: #000000;
+}
+
+.icon-close:before {
+  content: "\e90a";
+  color: #40bfff;
+}
+
+.icon-cross_mobile:before {
+  content: "\e90b";
+  color: #223263;
+}
+
+.icon-Date:before {
+  content: "\e90c";
+}
+
+.icon-del .path1:before {
+  content: "\e90d";
+  color: rgb(255, 104, 117);
+  opacity: 0.0500;
+}
+
+.icon-del .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 66, 82);
+}
+
+.icon-del .path3:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 66, 82);
+}
+
+.icon-facebook:before {
+  content: "\e910";
+  color: #385c8e;
+}
+
+.icon-Filter:before {
+  content: "\e911";
+}
+
+.icon-Gender:before {
+  content: "\e912";
+}
+
+.icon-google .path1:before {
+  content: "\e913";
+  color: rgb(255, 193, 7);
+}
+
+.icon-google .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 61, 0);
+}
+
+.icon-google .path3:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(76, 175, 80);
+}
+
+.icon-google .path4:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(25, 118, 210);
+}
+
+.icon-hearts:before {
+  content: "\e917";
+  color: #33a0ff;
+}
+
+.icon-home:before {
+  content: "\e918";
+}
+
+.icon-Icon .path1:before {
+  content: "\e919";
+  color: rgb(64, 191, 255);
+}
+
+.icon-Icon .path2:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-List:before {
+  content: "\e91b";
+}
+
+.icon-Location:before {
+  content: "\e91c";
+}
+
+.icon-love:before {
+  content: "\e91d";
+}
+
+.icon-Message:before {
+  content: "\e91e";
+  color: #40bfff;
+}
+
+.icon-Mic:before {
+  content: "\e91f";
+}
+
+.icon-mobile_profile:before {
+  content: "\e920";
+  color: #9098b1;
+}
+
+.icon-More:before {
+  content: "\e921";
+}
+
+.icon-offer:before {
+  content: "\e922";
+  color: #9098b1;
+}
+
+.icon-password:before {
+  content: "\e923";
+  color: #9098b1;
+}
+
+.icon-Paypal .path1:before {
+  content: "\e924";
+  color: rgb(21, 101, 192);
+}
+
+.icon-Paypal .path2:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(3, 155, 229);
+}
+
+.icon-Paypal .path3:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(40, 53, 147);
+}
+
+.icon-Phone:before {
+  content: "\e927";
+}
+
+.icon-profile:before {
+  content: "\e928";
+}
+
+.icon-Right:before {
+  content: "\e929";
+}
+
+.icon-search-icon:before {
+  content: "\e92a";
+}
+
+.icon-search-icon_mobile:before {
+  content: "\e92b";
+}
+
+.icon-Short-icon:before {
+  content: "\e92c";
+}
+
+.icon-star:before {
+  content: "\e92d";
+  color: #ffc600;
+}
+
+.icon-Transaction:before {
+  content: "\e92e";
+}
+
+.icon-trash:before {
+  content: "\e92f";
+}
+
+.icon-twitter:before {
+  content: "\e930";
+  color: #03a9f4;
+}
+
+.icon-X:before {
+  content: "\e931";
+}
